@@ -3,6 +3,8 @@
 static int first_time = 1;
 // 배타적인 시작 상태(exclusive start state)를 사용하면 시작 상태가 없는 규칙에 매치되지 않는다. 
 // 실전에서 배타적인 시작 상태가 훨씬 더 유용하다고 한다. - p248
+
+// 사용 방법은 %x와 %s에 차이가 있다.
 %}
 
 %x NORMAL CMNT
